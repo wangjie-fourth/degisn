@@ -10,12 +10,12 @@ package singleton.lazyUnsafe;
 public class Singleton {
     private static Singleton INSTANCE;
 
-    private Singleton(){
+    private Singleton() {
 
     }
 
-    public Singleton getINSTANCE(){
-        if (INSTANCE == null){
+    public Singleton getINSTANCE() {
+        if (INSTANCE == null) {
             return new Singleton();
         }
         return INSTANCE;

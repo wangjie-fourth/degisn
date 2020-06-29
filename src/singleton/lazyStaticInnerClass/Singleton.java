@@ -14,6 +14,7 @@ public class Singleton {
 
     /**
      * 只要获取这个单例对象时，对应的静态内部类才会被加载；
+     *
      * @return
      */
     public static Singleton getInstance() {

@@ -12,8 +12,8 @@ import java.util.List;
 public interface LogFileManager {
 
 
-     List<Log> readLog();
+    List<Log> readLog();
 
-     void writeLogIntoFile(List<Log> log);
+    void writeLogIntoFile(List<Log> log);
 
 }

@@ -9,7 +9,7 @@ package factory.simple.function;
  **/
 public class FileDataReader implements DataReader {
 
-    public String get(){
+    public String get() {
         return "File Data!";
     }
 }

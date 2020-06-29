@@ -15,12 +15,12 @@ public class Singleton {
         INSATNCE = new Singleton();
     }
 
-    private Singleton(){
+    private Singleton() {
 
     }
 
     // 可有可无，因为上面单例对象是public
-    public static Singleton getInstance(){
+    public static Singleton getInstance() {
         return INSATNCE;
     }
 

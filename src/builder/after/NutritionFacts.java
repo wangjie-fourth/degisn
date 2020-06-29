@@ -20,7 +20,7 @@ public class NutritionFacts {
     private final int sodium;
     private final int carbohydrate;
 
-    public static class Builder{
+    public static class Builder {
         // must required
         private final int servingSize;
         private final int serving;
@@ -55,7 +55,7 @@ public class NutritionFacts {
             return this;
         }
 
-        public NutritionFacts build(){
+        public NutritionFacts build() {
             return new NutritionFacts(this);
         }
     }

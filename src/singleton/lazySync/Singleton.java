@@ -10,12 +10,12 @@ package singleton.lazySync;
 public class Singleton {
     private static Singleton INSTANCE;
 
-    private Singleton(){
+    private Singleton() {
 
     }
 
-    public synchronized Singleton getINSTANCE(){
-        if (INSTANCE == null){
+    public synchronized Singleton getINSTANCE() {
+        if (INSTANCE == null) {
             return new Singleton();
         }
         return INSTANCE;

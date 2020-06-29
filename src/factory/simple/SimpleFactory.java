@@ -12,8 +12,8 @@ import factory.simple.function.MySQLDataReader;
  * @Email jie.wang13@hand-china.com
  **/
 public class SimpleFactory {
-    public DataReader getDataReader(String type){
-        switch (type){
+    public DataReader getDataReader(String type) {
+        switch (type) {
             case "MYSQL":
                 return new MySQLDataReader();
             case "File":

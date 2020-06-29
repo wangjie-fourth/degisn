@@ -23,6 +23,5 @@ public class LogClient {
         logDAO.createLog(log);
 
 
-
     }
 }
