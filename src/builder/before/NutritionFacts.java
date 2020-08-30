@@ -1,7 +1,7 @@
 package builder.before;
-
-import lombok.Getter;
-import lombok.Setter;
+//
+//import lombok.Getter;
+//import lombok.Setter;
 
 /**
  * @ClassName NutritionFacts
@@ -10,8 +10,8 @@ import lombok.Setter;
  * @Date 2020/4/10 9:31
  * @Email jie.wang13@hand-china.com
  **/
-@Getter
-@Setter
+//@Getter
+//@Setter
 public class NutritionFacts {
     private int servingSize;
     private int serving;
